@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="58.152" tests="1" failures="0" errors="1">
+   <testsuite name="Login" tests="1" failures="0" errors="1" time="58.152" timestamp="2020-05-04 09:49:55" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\ACCPartner-CMS\\Reports\\20200504_094950\\Login\\20200504_094950"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\ACCPartner-CMS\\Reports\\20200504_094950\\Login\\20200504_094950\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.129"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="77addae9eec2e779523147508a2cbc72"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Login" time="55.916" classname="Test Cases/Admin Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expected for class: Script1588558806194
+	at Admin Login.run(Admin Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588560590288.run(TempTestSuite1588560590288.groovy:36)
+"/>
+         <system-out><![CDATA[2020-05-04 09:49:56 - [TEST_CASE][ERROR] - Test Cases/Admin Login: Test Cases/Admin Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expected for class: Script1588558806194
+	at Admin Login.run(Admin Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588560590288.run(TempTestSuite1588560590288.groovy:36)
+
+
+2020-05-04 09:49:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-04 09:49:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-04 09:49:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-04 09:50:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-04 09:50:04 - [TEST_STEP][PASSED] - navigateToUrl("http://accseamless.stage.digitalintegrasiasia.com/login"): Navigate to 'http://accseamless.stage.digitalintegrasiasia.com/login' successfully
+
+2020-05-04 09:50:46 - [MESSAGE][PASSED] - Navigate to 'http://accseamless.stage.digitalintegrasiasia.com/login' successfully
+
+2020-05-04 09:50:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-04 09:50:47 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-04 09:50:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-04 09:50:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-04 09:50:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin login/input_Login_username"), username): Text '' is set on object 'Object Repository/admin login/input_Login_username'
+
+2020-05-04 09:50:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin login/input_Login_username'
+
+2020-05-04 09:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin login/input_Password_password"), password): Text '' is set on object 'Object Repository/admin login/input_Password_password'
+
+2020-05-04 09:50:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin login/input_Password_password'
+
+2020-05-04 09:50:51 - [TEST_STEP][PASSED] - if (expected == "pass"): null]]></system-out>
+         <system-err><![CDATA[2020-05-04 09:49:56 - [TEST_CASE][ERROR] - Test Cases/Admin Login: Test Cases/Admin Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expected for class: Script1588558806194
+	at Admin Login.run(Admin Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588560590288.run(TempTestSuite1588560590288.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-04 09:49:55 - [TEST_SUITE][ERROR] - Login: Test Cases/Admin Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expected for class: Script1588558806194
+	at Admin Login.run(Admin Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588560590288.run(TempTestSuite1588560590288.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-05-04 09:49:55 - [TEST_SUITE][ERROR] - Login: Test Cases/Admin Login FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expected for class: Script1588558806194
+	at Admin Login.run(Admin Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588560590288.run(TempTestSuite1588560590288.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="101.441" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="101.441" timestamp="2020-05-04 09:57:43" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\ACCPartner-CMS\\Reports\\20200504_095738\\Login\\20200504_095738"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\ACCPartner-CMS\\Reports\\20200504_095738\\Login\\20200504_095738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 81.0.4044.129"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="sessionId" value="c02f56ef0dd64fbad7649b66f9f4fb6b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Login" time="99.602" classname="Test Cases/Admin Login" status="PASSED">
+         <system-out><![CDATA[2020-05-04 09:57:44 - [TEST_CASE][PASSED] - Test Cases/Admin Login: Test Cases/Admin Login
+
+2020-05-04 09:57:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-04 09:57:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-04 09:57:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-04 09:57:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-04 09:57:52 - [TEST_STEP][PASSED] - navigateToUrl("http://accseamless.stage.digitalintegrasiasia.com/login"): Navigate to 'http://accseamless.stage.digitalintegrasiasia.com/login' successfully
+
+2020-05-04 09:59:08 - [MESSAGE][PASSED] - Navigate to 'http://accseamless.stage.digitalintegrasiasia.com/login' successfully
+
+2020-05-04 09:59:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-05-04 09:59:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-05-04 09:59:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-04 09:59:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-04 09:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin login/input_Login_username"), username): Text '' is set on object 'Object Repository/admin login/input_Login_username'
+
+2020-05-04 09:59:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin login/input_Login_username'
+
+2020-05-04 09:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin login/input_Password_password"), password): Text '' is set on object 'Object Repository/admin login/input_Password_password'
+
+2020-05-04 09:59:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin login/input_Password_password'
+
+2020-05-04 09:59:14 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-05-04 09:59:14 - [TEST_STEP][PASSED] - else if (expected == "fail"): null
+
+2020-05-04 09:59:14 - [TEST_STEP][PASSED] - setText(findTestObject("admin login/input_captcha"), captcha): Text '' is set on object 'Object Repository/admin login/input_captcha'
+
+2020-05-04 09:59:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/admin login/input_captcha'
+
+2020-05-04 09:59:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-05-04 09:59:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-05-04 09:59:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin login/button_Sign in")): Object: 'Object Repository/admin login/button_Sign in' is clicked on
+
+2020-05-04 09:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/admin login/button_Sign in' is clicked on
+
+2020-05-04 09:59:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-05-04 09:59:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-05-04 09:59:23 - [TEST_STEP][PASSED] - switch (status.toString()): null
+
+2020-05-04 09:59:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-04 09:59:24 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-04 09:59:24 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/admin login/i_Password_btnRefreshCaptcha")): NOT_RUN: click(findTestObject("Object Repository/admin login/i_Password_btnRefreshCaptcha"))
+
+2020-05-04 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/admin login/i_Password_btnRefreshCaptcha"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-04 09:57:43 - [TEST_SUITE][PASSED] - Login: Test Cases/Admin Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

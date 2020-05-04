@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Superadmin Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1a7eb81-5b80-47bc-acd9-89dde22065c5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b1b5bfe-f7c2-4f5b-a46a-21f6d8967d61</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6930d0f-9a9e-4cfe-8a01-73c2726bbcb6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f676077-2ea5-4734-9589-52c73db83d7b</id>
+      <masked>false</masked>
+      <name>captcha</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d35644c-c0a6-4de4-b9f0-d50be41dfed8</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7679fa95-ef64-4081-9a19-2dc5711279cd</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

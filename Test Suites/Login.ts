@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>58b368ad-3013-4c33-b62f-337ee5d7bb1c</testSuiteGuid>
+   <testCaseLink>
+      <guid>14810554-46ef-440f-a68f-18c9fb665f14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ec1a8218-2cb3-4664-a189-a72da64f5f6b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-9</value>
+         </iterationEntity>
+         <testDataId>Data Files/Admin Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ec1a8218-2cb3-4664-a189-a72da64f5f6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status </value>
+         <variableId>8f7defff-ecff-436e-adf7-82a97d7f1409</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ec1a8218-2cb3-4664-a189-a72da64f5f6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>cc8e0c7a-cca0-45ef-b154-6359ecd1d258</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ec1a8218-2cb3-4664-a189-a72da64f5f6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>85eb54eb-9786-47c7-b4ee-38767b113158</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ec1a8218-2cb3-4664-a189-a72da64f5f6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>captcha</value>
+         <variableId>1ecb2991-f412-4c28-a144-0040d0b230ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ec1a8218-2cb3-4664-a189-a72da64f5f6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>d0911210-8239-4dd7-a511-4c184113dc94</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e148ef77-7e2a-4e2a-8ffc-723e9b51c21c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Superadmin Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>316a0be6-773b-4773-bee5-71ea09a10373</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/Superadmin Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>316a0be6-773b-4773-bee5-71ea09a10373</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8b1b5bfe-f7c2-4f5b-a46a-21f6d8967d61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>316a0be6-773b-4773-bee5-71ea09a10373</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b6930d0f-9a9e-4cfe-8a01-73c2726bbcb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>316a0be6-773b-4773-bee5-71ea09a10373</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>captcha</value>
+         <variableId>2f676077-2ea5-4734-9589-52c73db83d7b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>316a0be6-773b-4773-bee5-71ea09a10373</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>status </value>
+         <variableId>2d35644c-c0a6-4de4-b9f0-d50be41dfed8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>316a0be6-773b-4773-bee5-71ea09a10373</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>7679fa95-ef64-4081-9a19-2dc5711279cd</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9656d89-659f-4a5f-bf0e-7b4da5e26709</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f7defff-ecff-436e-adf7-82a97d7f1409</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc8e0c7a-cca0-45ef-b154-6359ecd1d258</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85eb54eb-9786-47c7-b4ee-38767b113158</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ecb2991-f412-4c28-a144-0040d0b230ed</id>
+      <masked>false</masked>
+      <name>captcha</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0911210-8239-4dd7-a511-4c184113dc94</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>
